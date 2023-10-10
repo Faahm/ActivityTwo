@@ -1,8 +1,9 @@
-const Post = () => {
+// eslint-disable-next-line react/prop-types
+const Post = ({ title, body }) => {
   return (
-    <div className="text-center p-4 bh-white border border-gray-400/30 w-[250px]">
-      <h4>Title</h4>
-      <h4>Body</h4>
+    <div className="text-center p-4 bh-white border border-[#6066A9]-400/30 w-[250px] rounded">
+      <h4 className="font-text-2xl mb-2 font-bold">{title}</h4>
+      <h4>{body}</h4>
     </div>
   );
 };
