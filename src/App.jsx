@@ -27,7 +27,7 @@ function App() {
           return (
             <div
               key={`pagination-${index + 1}`}
-              className="p-2 border font-bold hover:cursor-pointer rounded-full bg-[#7E83B9]"
+              className="p-2 border font-bold hover:cursor-pointer rounded-full bg-[#3047BB]"
               onClick={() => setNumber(index + 1)}
             >
               {index + 1}
